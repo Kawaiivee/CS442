@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CircleCalc</string>
+    <string name="label">Select Calculation</string>
+    <string name="areaText">Area</string>
+    <string name="circText">Circumference</string>
+    <string name="radiusText">Radius:</string>
+    <string name="buttonText">Calculate</string>
+</resources>

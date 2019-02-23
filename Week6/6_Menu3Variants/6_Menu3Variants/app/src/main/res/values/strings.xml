@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="so_much_to_do">So Much To Do</string>
+    <string name="do_option_menu_a">Do Option Menu A</string>
+    <string name="do_option_menu_b">Do Option Menu B</string>
+    <string name="do_option_menu_c">Do Option Menu C</string>
+    <string name="make_uppercase">Make Uppercase</string>
+    <string name="make_lowercase">Make Lowercase</string>
+    <string name="do_popup_1">Do PopUp 1</string>
+    <string name="do_popup_2">Do PopUp 2</string>
+    <string name="do_popup_3">Do PopUp 3</string>
+</resources>

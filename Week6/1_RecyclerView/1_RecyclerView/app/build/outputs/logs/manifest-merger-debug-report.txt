@@ -1,0 +1,152 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\0e5dfb5da897047687cd5de280e89d46\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9db2217ceb43ed471ce43f18ed88adb6\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\1e01a864542324155f827961ee90477f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\05e4988949f266ee320c695821e1e770\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\5736e6c7bf82ed05544adda834336fcd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\e114d23aaa8aa5c8a52c90057784b01a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\df700441bc8a86b085eb81a4b0160e00\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\9dc575973f85a4845e10a30ca9872780\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\e0edefcbf6dbfc5902dbb2e933faa270\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\32a02966fe06c112b766540d20b38688\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\3571d2a16a5621253e9ad3b6f1425f80\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\98273c326a19122bebb6c37f806b1b21\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a8bd8d3e28768de7090f2e61ed561920\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\a1eb38efcaf37051111be9f06b47c13b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\9aff1df4cd95b0a1f0826c44770bd624\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\07bcf59d095801b46b1ab8473b7db390\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\995b9747ca5c8f9cd769c08c743cc8dc\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\33718afa8533d18fdb66b353905ee944\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0fe710999cf38cb9f88ea5851f7336eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\1a93567de03bbe7d01a195d562a6e1ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\531903b0157c608fe8fea30079a3bdc1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\deef21732ecb959d34c7b8139cc463be\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a46b003db4ed07c6f5e9b7dd52027936\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\43da23f0072de3db958652f207814b65\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7cdce7ee016782265693bbafce9a8a3e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e957f9047dcf88a6017103e4339fc9d7\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:1-20:12
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9db2217ceb43ed471ce43f18ed88adb6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9db2217ceb43ed471ce43f18ed88adb6\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\995b9747ca5c8f9cd769c08c743cc8dc\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\995b9747ca5c8f9cd769c08c743cc8dc\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.christopher.recycler.MainActivity
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\0e5dfb5da897047687cd5de280e89d46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-rc02.aar\0e5dfb5da897047687cd5de280e89d46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9db2217ceb43ed471ce43f18ed88adb6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\9db2217ceb43ed471ce43f18ed88adb6\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\1e01a864542324155f827961ee90477f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-rc02.aar\1e01a864542324155f827961ee90477f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\05e4988949f266ee320c695821e1e770\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0-rc02.aar\05e4988949f266ee320c695821e1e770\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\5736e6c7bf82ed05544adda834336fcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-rc02.aar\5736e6c7bf82ed05544adda834336fcd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\e114d23aaa8aa5c8a52c90057784b01a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0-rc02.aar\e114d23aaa8aa5c8a52c90057784b01a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\df700441bc8a86b085eb81a4b0160e00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0-rc02.aar\df700441bc8a86b085eb81a4b0160e00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\9dc575973f85a4845e10a30ca9872780\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-rc02.aar\9dc575973f85a4845e10a30ca9872780\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\e0edefcbf6dbfc5902dbb2e933faa270\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\loader-28.0.0-rc02.aar\e0edefcbf6dbfc5902dbb2e933faa270\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\32a02966fe06c112b766540d20b38688\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0-rc02.aar\32a02966fe06c112b766540d20b38688\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\3571d2a16a5621253e9ad3b6f1425f80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0-rc02.aar\3571d2a16a5621253e9ad3b6f1425f80\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\98273c326a19122bebb6c37f806b1b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0-rc02.aar\98273c326a19122bebb6c37f806b1b21\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a8bd8d3e28768de7090f2e61ed561920\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0-rc02.aar\a8bd8d3e28768de7090f2e61ed561920\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\a1eb38efcaf37051111be9f06b47c13b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\customview-28.0.0-rc02.aar\a1eb38efcaf37051111be9f06b47c13b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\9aff1df4cd95b0a1f0826c44770bd624\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0-rc02.aar\9aff1df4cd95b0a1f0826c44770bd624\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\07bcf59d095801b46b1ab8473b7db390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0-rc02.aar\07bcf59d095801b46b1ab8473b7db390\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0-rc02.aar\6cf3e80046eb6b93fc3b577443dc696b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\995b9747ca5c8f9cd769c08c743cc8dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0-rc02.aar\995b9747ca5c8f9cd769c08c743cc8dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\33718afa8533d18fdb66b353905ee944\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0-rc02.aar\33718afa8533d18fdb66b353905ee944\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0fe710999cf38cb9f88ea5851f7336eb\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\0fe710999cf38cb9f88ea5851f7336eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\1a93567de03bbe7d01a195d562a6e1ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0-rc02.aar\1a93567de03bbe7d01a195d562a6e1ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\531903b0157c608fe8fea30079a3bdc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0-rc02.aar\531903b0157c608fe8fea30079a3bdc1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\deef21732ecb959d34c7b8139cc463be\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\print-28.0.0-rc02.aar\deef21732ecb959d34c7b8139cc463be\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a46b003db4ed07c6f5e9b7dd52027936\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\a46b003db4ed07c6f5e9b7dd52027936\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\43da23f0072de3db958652f207814b65\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0-rc02] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0-rc02.aar\43da23f0072de3db958652f207814b65\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7cdce7ee016782265693bbafce9a8a3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\7cdce7ee016782265693bbafce9a8a3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e957f9047dcf88a6017103e4339fc9d7\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e957f9047dcf88a6017103e4339fc9d7\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\CS442\Week6\1_RecyclerView\1_RecyclerView\app\src\main\AndroidManifest.xml

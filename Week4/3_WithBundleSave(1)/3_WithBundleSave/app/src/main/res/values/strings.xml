@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NoBundleSave</string>
+    <string name="copyButton">Copy</string>
+</resources>

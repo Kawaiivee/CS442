@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuA"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Do A"
+        app:showAsAction="ifRoom" />
+    <item android:title="Do B"
+        android:id="@+id/menuB"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="ifRoom" />
+    <item android:title="Do C"
+        android:id="@+id/menuC"
+        android:icon="@android:drawable/ic_menu_delete"
+        app:showAsAction="ifRoom" />
+    <item android:title="Do D"
+        android:id="@+id/menuD"
+        android:icon="@android:drawable/btn_star_big_off"
+        app:showAsAction="ifRoom" />
+
+</menu>
