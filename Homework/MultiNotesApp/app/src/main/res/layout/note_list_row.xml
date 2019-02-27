@@ -2,49 +2,56 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/note_list_row"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="#FFEEEEEE">
+    android:background="#FF8888DD">
 
     <TextView
         android:id="@+id/noteTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="#FFEEEEEE"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="#FFBBBBDD"
+        android:paddingLeft="8dp"
+        android:paddingTop="4dp"
         android:text="Note Title"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lastSaveDate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
 
     <TextView
         android:id="@+id/lastSaveDate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
-        android:background="#FFEEEEEE"
+        android:background="#FFBBBBDD"
+        android:paddingRight="8dp"
         android:text="Last Save Date"
         android:textAlignment="textEnd"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/noteTitle"
+        app:layout_constraintStart_toStartOf="@+id/noteTitle"
         app:layout_constraintTop_toBottomOf="@+id/noteTitle" />
 
     <TextView
-        android:id="@+id/noteText"
+        android:id="@+id/trimText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="8dp"
-        android:background="#FFEEEEEE"
-        android:text="Note Text"
+        android:background="#FFBBBBDD"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingBottom="4dp"
+        android:text="Trim Text"
         android:textSize="12sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/noteTitle"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/noteTitle"
         app:layout_constraintTop_toBottomOf="@+id/lastSaveDate" />
+
 </android.support.constraint.ConstraintLayout>

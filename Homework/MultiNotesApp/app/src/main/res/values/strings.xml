@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MultiNotesApp</string>
+    <string name="notesFile">notesFile</string>
+    <string name="encoding">UTF-8</string>
 </resources>

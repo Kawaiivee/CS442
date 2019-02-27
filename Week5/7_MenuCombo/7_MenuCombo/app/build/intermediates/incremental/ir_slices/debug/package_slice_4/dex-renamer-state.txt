@@ -1,0 +1,4 @@
+#Mon Feb 25 13:37:32 CST 2019
+base.0=C\:\\Users\\Kawaiivee\\Desktop\\CS442\\Week5\\7_MenuCombo\\7_MenuCombo\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,20 +1,33 @@
 package com.example.multinotesapp;
 
-public class Note{
+public class Note {
     private String lastSaveDate;
     private String noteTitle;
     private String noteText;
+    private String trimText;
 
     public Note(){
-        lastSaveDate = null;
+        lastSaveDate = "";
         noteTitle = "";
         noteText = "";
+        if(noteText.length() > 80){
+            trimText = noteText.substring(0, 79) + "...";
+        }
+        else{
+            trimText = noteText;
+        }
     }
 
-    public Note(String l, String t, String n){
+    public Note(String t, String n, String l){
         lastSaveDate = l;
         noteTitle = t;
         noteText = n;
+        if(n.length() > 80){
+            trimText = noteText.substring(0, 79) + "...";
+        }
+        else{
+            trimText = noteText;
+        }
     }
 
     public String getLastSaveDate() {
@@ -39,5 +52,17 @@ public class Note{
 
     public void setNoteText(String noteText) {
         this.noteText = noteText;
+        if(noteText.length() > 80){
+            trimText = noteText.substring(0, 79) + "...";
+        }
+        else{
+            trimText = noteText;
+        }
+    }
+
+    //We don't really need to mutate trimText i.e. setTrimText() method not needed
+    // The other methods account for trimText being 80 chars or more
+    public String getTrimText(){
+        return this.trimText;
     }
 }

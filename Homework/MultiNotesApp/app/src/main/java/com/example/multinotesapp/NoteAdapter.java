@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import java.util.List;
 
 public class NoteAdapter extends RecyclerView.Adapter<NoteViewHolder>{
@@ -19,7 +20,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteViewHolder>{
 
     @NonNull
     @Override
-    public NoteViewHolder onCreateViewHolder(@NonNull final ViewGroup parent, int viewType){
+    public NoteViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
         View itemView = LayoutInflater.from(parent.getContext())
             .inflate(R.layout.note_list_row, parent, false);
         itemView.setOnClickListener(mainActivity);
@@ -32,7 +33,7 @@ public class NoteAdapter extends RecyclerView.Adapter<NoteViewHolder>{
         Note N = noteList.get(position);
         holder.lastSaveDate.setText(N.getLastSaveDate());
         holder.noteTitle.setText(N.getNoteTitle());
-        holder.noteText.setText(N.getNoteText());
+        holder.trimText.setText(N.getTrimText());
     }
 
     @Override
