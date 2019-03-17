@@ -82,18 +82,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ADB.setPositiveButton("YES!", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                noteList.remove(position);
-                //changes have been made to arraylist
-                //notify adapter!
-                if(noteList.size() > 0){
-                    getSupportActionBar().setTitle(getString(R.string.app_name) + "(" + noteList.size() + ")");
-                    noteAdapter.notifyDataSetChanged();
-                }
-                //No notes
-                else{
-                    getSupportActionBar().setTitle(getString(R.string.app_name));
-                    noteAdapter.notifyDataSetChanged();
-                }
+            noteList.remove(position);
+            //changes have been made to arraylist
+            //notify adapter!
+            if(noteList.size() > 0){
+                getSupportActionBar().setTitle(getString(R.string.app_name) + "(" + noteList.size() + ")");
+                noteAdapter.notifyDataSetChanged();
+            }
+            //No notes
+            else{
+                getSupportActionBar().setTitle(getString(R.string.app_name));
+                noteAdapter.notifyDataSetChanged();
+            }
             }
         });
 
