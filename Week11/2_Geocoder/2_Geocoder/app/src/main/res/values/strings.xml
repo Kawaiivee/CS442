@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GeoCoder</string>
+    <string name="nothing_found">Nothing Found</string>
+</resources>

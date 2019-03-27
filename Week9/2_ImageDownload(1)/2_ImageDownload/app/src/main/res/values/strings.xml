@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ImageDownload</string>
+    <string name="image1">https://cdn.spacetelescope.org/archives/images/thumb700x/heic1501a.jpg</string>
+    <string name="image2">https://images-assets.nasa.gov/image/PIA01120/PIA01120~medium.jpg</string>
+    <string name="image3">https://images-assets.nasa.gov/image/6900952/does_not_exist.jpg</string>
+</resources>

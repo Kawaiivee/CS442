@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlarmServiceExample</string>
+    <string name="back">I\'m back!</string>
+    <string name="first">This is the First Time I was opened!</string>
+</resources>
