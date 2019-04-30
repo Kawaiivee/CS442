@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/profileConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/profileLastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="last,"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profileFirstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="first"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profileLastname"
+            app:layout_constraintTop_toTopOf="@+id/profileLastname" />
+
+        <TextView
+            android:id="@+id/profileUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="(username)"
+            app:layout_constraintStart_toEndOf="@+id/profileFirstname"
+            app:layout_constraintTop_toTopOf="@+id/profileFirstname" />
+
+        <TextView
+            android:id="@+id/profileLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="City, State"
+            android:textStyle="italic"
+            app:layout_constraintStart_toStartOf="@+id/profileLastname"
+            app:layout_constraintTop_toBottomOf="@+id/profileLastname" />
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="192sp"
+            android:layout_height="240sp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="@+id/profileLastname"
+            app:layout_constraintTop_toBottomOf="@+id/profileLocation"
+            app:srcCompat="@drawable/default_photo" />
+
+        <TextView
+            android:id="@+id/profilePointsAwardedLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="Points Awarded:"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/profilePhoto"
+            app:layout_constraintTop_toTopOf="@+id/profilePhoto" />
+
+        <TextView
+            android:id="@+id/profilePointsAwarded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="0"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profilePointsAwardedLabel" />
+
+        <TextView
+            android:id="@+id/profileDepartmentLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Department:"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profilePointsAwarded" />
+
+        <TextView
+            android:id="@+id/profileDepartment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="department"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profileDepartmentLabel" />
+
+        <TextView
+            android:id="@+id/profilePositionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Position:"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profileDepartment" />
+
+        <TextView
+            android:id="@+id/profilePosition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="position"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profilePositionLabel" />
+
+        <TextView
+            android:id="@+id/profilePointsToAwardLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Points To Award:"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profilePosition" />
+
+        <TextView
+            android:id="@+id/profilePointsToAward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:text="0"
+            app:layout_constraintStart_toStartOf="@+id/profilePointsAwardedLabel"
+            app:layout_constraintTop_toBottomOf="@+id/profilePointsToAwardLabel" />
+
+        <TextView
+            android:id="@+id/profileStoryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Your Story:"
+            app:layout_constraintStart_toStartOf="@+id/profileLastname"
+            app:layout_constraintTop_toBottomOf="@+id/profilePhoto" />
+
+        <TextView
+            android:id="@+id/profileStory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="8dp"
+            android:minLines="8"
+            android:text="story"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/profileLastname"
+            app:layout_constraintTop_toBottomOf="@+id/profileStoryLabel" />
+
+        <TextView
+            android:id="@+id/profileRewardHistoryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="32dp"
+            android:text="Reward History (0):"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/profileLastname"
+            app:layout_constraintTop_toBottomOf="@+id/profileStory" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/profileRecyclerView"
+            android:layout_width="0dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileRewardHistoryLabel" />
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

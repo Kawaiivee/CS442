@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fragment Example</string>
+    <string name="batman">Batman</string>
+    <string name="wonder_woman">Wonder Woman</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="black_panther">Black Panther</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

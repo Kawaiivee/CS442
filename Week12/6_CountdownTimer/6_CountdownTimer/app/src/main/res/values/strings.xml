@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CountdownTimer</string>
+    <string name="video_url">https://www.christopherhield.com/video/video.mp4</string>
+    <string name="information">Touching the screen anywhere will reset the timeout</string>
+</resources>

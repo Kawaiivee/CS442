@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".CreateActivity">
+
+    <EditText
+        android:id="@+id/createUsernameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="SELECT USERNAME"
+        android:inputType="textPersonName"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/createPhoto"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/createPasswordText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="SELECT PASSWORD"
+        android:inputType="textPassword"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="@+id/createUsernameText"
+        app:layout_constraintStart_toStartOf="@+id/createUsernameText"
+        app:layout_constraintTop_toBottomOf="@+id/createUsernameText" />
+
+    <CheckBox
+        android:id="@+id/createAdminCheckBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Admin. User"
+        app:layout_constraintStart_toStartOf="@+id/createUsernameText"
+        app:layout_constraintTop_toBottomOf="@+id/createPasswordText" />
+
+    <EditText
+        android:id="@+id/createFirstnameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="ENTER FIRST NAME"
+        android:inputType="textPersonName"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="@+id/createPasswordText"
+        app:layout_constraintStart_toStartOf="@+id/createUsernameText"
+        app:layout_constraintTop_toBottomOf="@+id/createAdminCheckBox" />
+
+    <EditText
+        android:id="@+id/createLastnameText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="ENTER LAST NAME"
+        android:inputType="textPersonName"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="@+id/createFirstnameText"
+        app:layout_constraintStart_toStartOf="@+id/createUsernameText"
+        app:layout_constraintTop_toBottomOf="@+id/createFirstnameText" />
+
+    <TextView
+        android:id="@+id/createDepartmentLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Department:"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createPhoto" />
+
+    <EditText
+        android:id="@+id/createDepartmentText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="ENTER DEPARTMENT"
+        android:inputType="textPersonName"
+        android:padding="2sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/createDepartmentLabel"
+        app:layout_constraintTop_toTopOf="@+id/createDepartmentLabel" />
+
+    <TextView
+        android:id="@+id/createPositionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Position:"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/createDepartmentLabel"
+        app:layout_constraintTop_toBottomOf="@+id/createDepartmentLabel" />
+
+    <EditText
+        android:id="@+id/createPositionText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:hint="ENTER POSITION"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/createDepartmentText"
+        app:layout_constraintTop_toBottomOf="@+id/createDepartmentText" />
+
+    <TextView
+        android:id="@+id/createStoryLabel"
+        android:layout_width="109dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="8dp"
+        android:text="Your Story:"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="@+id/createDepartmentLabel"
+        app:layout_constraintTop_toBottomOf="@+id/createPositionLabel" />
+
+    <TextView
+        android:id="@+id/createStoryCharCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="(0 of 360)"
+        android:textSize="22sp"
+        app:layout_constraintStart_toEndOf="@+id/createStoryLabel"
+        app:layout_constraintTop_toTopOf="@+id/createStoryLabel" />
+
+    <EditText
+        android:id="@+id/createStoryText"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#88DDDDDD"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="TELL US ABOUT YOURSELF!"
+        android:inputType="textMultiLine"
+        android:padding="2sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createStoryLabel" />
+
+    <ImageView
+        android:id="@+id/createPhoto"
+        android:layout_width="192dp"
+        android:layout_height="240dp"
+        android:src="@drawable/default_photo"
+        app:layout_constraintBottom_toBottomOf="@+id/createLastnameText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/createAddIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/createPhoto"
+        app:layout_constraintEnd_toEndOf="@+id/createPhoto"
+        app:layout_constraintStart_toStartOf="@+id/createPhoto"
+        app:layout_constraintTop_toTopOf="@+id/createPhoto"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+</android.support.constraint.ConstraintLayout>
