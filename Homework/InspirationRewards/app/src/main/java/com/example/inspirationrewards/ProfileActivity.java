@@ -3,12 +3,15 @@ package com.example.inspirationrewards;
 import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -44,26 +47,52 @@ public class ProfileActivity extends AppCompatActivity {
     private LocationManager locationManager;
     private Criteria criteria;
 
+    Profile profile;
+
+    private static int EDIT_REQ = 5;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
+        profile = (Profile) getIntent().getSerializableExtra("profile");
+
         profileLastname = findViewById(R.id.profileLastname);
+        profileLastname.setText(profile.getLastname());
+
         profileFirstname = findViewById(R.id.profileFirstname);
+        profileFirstname.setText(profile.getFirstname());
+
         profileUsername = findViewById(R.id.profileUsername);
+        profileUsername.setText(profile.getUsername());
+
         profileLocation = findViewById(R.id.profileLocation);
+        profileLocation.setText(profile.getLocation());
+
         profilePhoto = findViewById(R.id.profilePhoto);
+        Bitmap bm = BitmapFactory.decodeByteArray(profile.getPhoto(), 0, profile.getPhoto().length);
+        profilePhoto.setImageBitmap(bm);
+
         profilePointsAwardedLabel = findViewById(R.id.profilePointsAwardedLabel);
         profilePointsAwarded = findViewById(R.id.profilePointsAwarded);
+
         profileDepartmentLabel = findViewById(R.id.profileDepartmentLabel);
         profileDepartment = findViewById(R.id.profileDepartment);
+        profileDepartment.setText(profile.getDepartment());
+
         profilePositionLabel = findViewById(R.id.profilePositionLabel);
         profilePosition = findViewById(R.id.profilePosition);
+        profilePosition.setText(profile.getPosition());
+
         profilePointsToAwardLabel = findViewById(R.id.profilePointsToAwardLabel);
         profilePointsToAward = findViewById(R.id.profilePointsToAward);
+        profilePointsToAward.setText("" + profile.getPoints());
+
         profileStoryLabel = findViewById(R.id.profileStoryLabel);
         profileStory = findViewById(R.id.profileStory);
+        profileStory.setText(profile.getStory());
+
         profileRewardHistoryLabel = findViewById(R.id.profileRewardHistoryLabel);
 
         //LOCATION Setup
@@ -120,10 +149,12 @@ public class ProfileActivity extends AppCompatActivity {
                 //Save The data
                 //NEED TO CHECK IF fields are null
                 //i.e. we need a username, pass, fn, ln, "story"?, etc...
-                startActivity(toEdit);
+                toEdit.putExtra("profile", profile);
+                startActivityForResult(toEdit, EDIT_REQ);
                 break;
             case(R.id.profileLeaderboard):
                 //same as said above
+                toLeaderboard.putExtra("profile", profile);
                 startActivity(toLeaderboard);
                 break;
         }
@@ -131,16 +162,26 @@ public class ProfileActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    // If there is an internet connection, return true. else false
-    //Use this for anything that attemps to use the internet
-    public boolean connected(){
-        ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-        if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
-                connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
-            return true;
-        }
-        else{
-            return false;
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        if (requestCode == EDIT_REQ) {
+            if (resultCode == 1) {
+                profile = (Profile) data.getSerializableExtra("profile");
+
+                profileLastname.setText(profile.getLastname());
+                profileFirstname.setText(profile.getFirstname());
+                profileUsername.setText(profile.getUsername());
+                profileLocation.setText(profile.getLocation());
+
+                Bitmap bm = BitmapFactory.decodeByteArray(profile.getPhoto(), 0, profile.getPhoto().length);
+                profilePhoto.setImageBitmap(bm);
+
+                profileDepartment.setText(profile.getDepartment());
+                profilePosition.setText(profile.getPosition());
+                profileStory.setText(profile.getStory());
+
+            }
         }
     }
 }

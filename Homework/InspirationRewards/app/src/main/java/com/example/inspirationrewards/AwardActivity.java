@@ -116,17 +116,4 @@ public class AwardActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-    // If there is an internet connection, return true. else false
-    //Use this for anything that attemps to use the internet
-    public boolean connected(){
-        ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-        if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
-                connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
-            return true;
-        }
-        else{
-            return false;
-        }
-    }
 }

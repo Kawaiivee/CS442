@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\95f583cfae166995583658ac1db3f19a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\09af6ffda52e0fbb1f94aef6e779c69b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\3abf46045692517aea94f16db76458aa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\38082cdf46ae71553157bea4636249e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\eb57fd19e99b202aeb8725cacbc6c381\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\79c5c24ceab63c8936ecb114c044efab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\b7cba5548de4ae82c983467627a9f9d1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1717a6582835effeb74b6cdb91bc250b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d27f0e93bd355963f334404b508ca8ac\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d4525af37451a5863e0ee2000767dca\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ef7382ef5ccceef66394603250e2358\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1710792080eb9c9ab0a5eaddc1da0d2d\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+	package
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:1-33:12
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:7:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\09af6ffda52e0fbb1f94aef6e779c69b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\09af6ffda52e0fbb1f94aef6e779c69b\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.christopherhield.a_widget.MainActivity
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:18:27-74
+receiver#com.christopherhield.a_widget.Widget
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:22:19-41
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:23:13-25:29
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:24:17-84
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:24:25-81
+meta-data#android.appwidget.provider
+ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:27:13-29:55
+	android:resource
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:29:17-52
+	android:name
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml:28:17-58
+uses-sdk
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\95f583cfae166995583658ac1db3f19a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\95f583cfae166995583658ac1db3f19a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\09af6ffda52e0fbb1f94aef6e779c69b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\09af6ffda52e0fbb1f94aef6e779c69b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\3abf46045692517aea94f16db76458aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\3abf46045692517aea94f16db76458aa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\38082cdf46ae71553157bea4636249e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\38082cdf46ae71553157bea4636249e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\eb57fd19e99b202aeb8725cacbc6c381\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\eb57fd19e99b202aeb8725cacbc6c381\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\79c5c24ceab63c8936ecb114c044efab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\79c5c24ceab63c8936ecb114c044efab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\b7cba5548de4ae82c983467627a9f9d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\b7cba5548de4ae82c983467627a9f9d1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1717a6582835effeb74b6cdb91bc250b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\1717a6582835effeb74b6cdb91bc250b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d27f0e93bd355963f334404b508ca8ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\d27f0e93bd355963f334404b508ca8ac\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d4525af37451a5863e0ee2000767dca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\2d4525af37451a5863e0ee2000767dca\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ef7382ef5ccceef66394603250e2358\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\2ef7382ef5ccceef66394603250e2358\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1710792080eb9c9ab0a5eaddc1da0d2d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Kawaiivee\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\1710792080eb9c9ab0a5eaddc1da0d2d\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Kawaiivee\Desktop\Git\CS442\Week15\5_WeatherWidget\5_WeatherWidget\app\src\main\AndroidManifest.xml

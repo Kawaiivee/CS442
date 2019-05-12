@@ -18,6 +18,7 @@ public class Profile implements Serializable {
     private int points = 0;
     private List<Reward> rewardList;
     private byte[] photo;
+    private String location;
 
     public Profile(
         String un,
@@ -29,7 +30,9 @@ public class Profile implements Serializable {
         String sty,
         boolean a,
         int pts,
-        byte[] pho
+        byte[] pho,
+        String loc,
+        List<Reward> rl
     ){
         username = un;
         password = pw;
@@ -41,7 +44,8 @@ public class Profile implements Serializable {
         admin = a;
         points = pts;
         photo = pho;
-
+        location = loc;
+        rewardList = rl;
     }
 
     //----GET----
@@ -89,6 +93,10 @@ public class Profile implements Serializable {
         return photo;
     }
 
+    public String getLocation() {
+        return location;
+    }
+
     //--SET----
     public void setUsername(String username) {
         this.username = username;
@@ -129,25 +137,12 @@ public class Profile implements Serializable {
     public void setPhoto(byte[] photo){
         this.photo = photo;
     }
-    //--Reward Class Helpers----
 
-    public void sendReward(int amount){
-        //need more methods here to actually do sending
-        this.setPoints(this.getPoints() - amount);
+    public void setRewardList(List<Reward> rewardList) {
+        this.rewardList = rewardList;
     }
 
-    public void receiveReward(int amount, String sender, String comment){
-        //First calculate total points
-        this.setPoints(this.getPoints() + amount);
-
-        //We can send amount, sender (sender is fName and lName), and comment okay
-        //Now we need to initialize the date sent
-        Date D = Calendar.getInstance().getTime();
-        SimpleDateFormat SDF = new SimpleDateFormat("MM/d/YYYY");
-        String date = SDF.format(D).toString();
-
-        //Make reward and add to this profile's reward list
-        //Might have to do more in terms of updating json,db, online etc
-        rewardList.add(new Reward(amount, sender, comment, date));
+    public void setLocation(String location){
+        this.location = location;
     }
 }

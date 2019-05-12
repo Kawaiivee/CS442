@@ -5,11 +5,19 @@ import android.os.AsyncTask;
 
 public class RewardsAsyncTask extends AsyncTask<String, Double, String> {
 
+    private static final String baseURL = "http://inspirationrewardsapi-env.6mmagpm2pv.us-east-2.elasticbeanstalk.com";
+    private static final String ID =  "A20349890";
+    private static boolean statues = false;
+
     @SuppressLint("StaticFieldLeak")
     private AwardActivity awardActivity;
-    private String rawURL = "";
-    private String requestMethod = "";
+    private String receiverUsername;
+    private String receiverName;
+    private String date;
+    private String comment;
+    private int amount;
 
+    //not yet implemented
     private RewardsAsyncTask(AwardActivity aa){
         this.awardActivity = aa;
     }

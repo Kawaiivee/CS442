@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Lion",
+    "latin_name": "Panthera leo",
+    "height": "Males: 49 inches; females: 42 inches",
+    "weight": "Male: 330 to 530 pounds; Female: 270 to 400 pounds",
+    "distribution": "Southern Sahara to South Africa",
+    "habitat": "Grassy plains, savannahs, open woodlands, and scrub country",
+    "wild_diet": "Animals in the 100- to 650-pound range: wildebeests, impala, antelope, young giraffes, buffalo, wild hogs, and zebras",
+    "zoo_diet": "Nebraska feline and canine diet, plus chunk horse meat, liver, or shank bone as treats",
+    "details": "The lion (Panthera leo) is one of the big cats in the genus Panthera and a member of the family Felidae. The commonly used term African lion collectively denotes the several subspecies in Africa. With some males exceeding 250 kg (550 lb) in weight, it is the second-largest living cat after the tiger, barring hybrids like the liger. Wild lions currently exist in sub-Saharan Africa and in India (where an endangered remnant population resides in and around Gir Forest National Park). In ancient historic times, their range was in most of Africa, including North Africa, and across Eurasia from Greece and southeastern Europe to India. In the late Pleistocene, about 10,000 years ago, the lion was the most widespread large land mammal after humans: Panthera leo spelaea lived in northern and western Europe and Panthera leo atrox lived in the Americas from the Yukon to Peru. The lion is classified as a vulnerable species by the International Union for Conservation of Nature (IUCN), having seen a major population decline in its African range of 30–50% over two decades during the second half of the twentieth century. Lion populations are untenable outside designated reserves and national parks. Although the cause of the decline is not fully understood, habitat loss and conflicts with humans are the greatest causes of concern. Within Africa, the West African lion population is particularly endangered."
+  },
+  {
+    "name": "Giraffe",
+    "latin_name": "Giraffa camelopardalis reticulata",
+    "height": "Males: average 17 feet, 4 inches; females: average 14 feet, 2 inches",
+    "weight": "Males: 2,400 to 4,250 pounds; females: 1,540 to 2,600 pounds",
+    "distribution": "Northeastern Kenya, Somalia, and Ethiopia",
+    "habitat": "Dry savannahs, open woodlands, and locations with acacia trees",
+    "wild_diet": "Primarily leaves from acacia trees and, to a lesser extent, mimosa and wild apricot leaves; also other kinds of leaves, flowers, seed pods, and fruits",
+    "zoo_diet": "Alfalfa hay, grain, chopped carrots, sweet potatoes, apples, and bread; willow and maple browse when available",
+    "details": "The giraffe (Giraffa) is a genus of African even-toed ungulate mammals, the tallest living terrestrial animals and the largest ruminants. The genus consists of eleven or more species including Giraffa camelopardalis, the type species. Seven of these species are extinct, prehistoric species known from fossils, though numerous subspecies have been described and its taxonomy is not definitively set. Indeed, research into the mitochondrial and nuclear DNA of Giraffa has suggested to recognize four to six distinct extant species. The four-species taxonomic classification, proposed in 2016 but criticized since then, has the genus Giraffa composed of the species Giraffa giraffa (southern giraffe), Giraffa tippelskirchi (Masai giraffe), Giraffa reticulata (reticulated giraffe) and Giraffa camelopardalis (northern giraffe)."
+  },
+  {
+    "name": "Zebra",
+    "latin_name": "Equus grevyi",
+    "height": "4'7\" to 5'3\"",
+    "weight": "770-990 lbs",
+    "distribution": "Kenya and Ethiopia",
+    "habitat": "Dry, semi-desert regions in grass/shrubland",
+    "wild_diet": "Forbs, grasses",
+    "zoo_diet": "grain, carrots, and free-choice hay",
+    "details": "Zebras are several species of African equids (horse family) united by their distinctive black and white striped coats. Their stripes come in different patterns, unique to each individual. They are generally social animals that live in small harems to large herds. Unlike their closest relatives, horses and donkeys, zebras have never been truly domesticated. There are three species of zebras: the plains zebra, the Grévy's zebra and the mountain zebra. The plains zebra and the mountain zebra belong to the subgenus Hippotigris, but Grévy's zebra is the sole species of subgenus Dolichohippus. The latter resembles an ass, to which it is closely related, while the former two are more horse-like. All three belong to the genus Equus, along with other living equids."
+  },
+  {
+    "name": "Polar Bear",
+    "latin_name": "Ursus maritimus",
+    "height": "8 to 11 feet when standing on back legs; on all four they are 3.5 to 5 feet tall",
+    "weight": "Male: 775 to 1,200 pounds; Females: 330 to 650 pounds; exceedingly large males can be 1,750 pounds",
+    "distribution": "Arctic regions around the North Pole and frozen coastal plains of Canada, Russia, Greenland, Norway, and the United States (southern limits are determined by distribution of pack ice)",
+    "habitat": "Coasts and islands, pack ice, and nearby waters; they are most common in areas of upwellings where currents increase productivity and thin the ice",
+    "wild_diet": "Ringed seals, bearded seals, seabirds, fish, vegetation, and carcasses of marine mammals (berries in summer), grass",
+    "zoo_diet": "Herring, trout, occasionally live bluegill and crappie in summer, produce, and omnivore biscuits; the meat-to-vegetable ratio replicates seasonal variability in the wild",
+    "details": "The polar bear (Ursus maritimus) is a carnivorous bear whose native range lies largely within the Arctic Circle, encompassing the Arctic Ocean, its surrounding seas and surrounding land masses. It is a large bear, approximately the same size as the omnivorous Kodiak bear (Ursus arctos middendorffi). A boar (adult male) weighs around 350–700 kg (772–1543 lb), while a sow (adult female) is about half that size. Although it is the sister species of the brown bear, it has evolved to occupy a narrower ecological niche, with many body characteristics adapted for cold temperatures, for moving across snow, ice and open water, and for hunting seals, which make up most of its diet. Although most polar bears are born on land, they spend most of their time on the sea ice. Their scientific name means \"maritime bear\" and derives from this fact. Polar bears hunt their preferred food of seals from the edge of sea ice, often living off fat reserves when no sea ice is present. Because of their dependence on the sea ice, polar bears are classified as marine mammals; an alternative basis for classification as marine mammals is that they depend on the ocean as their main food source."
+  },
+  {
+    "name": "Camel",
+    "latin_name": "Camelus bactrianus",
+    "height": "7.5' at hump",
+    "weight": "1,000 to 1,600 lbs",
+    "distribution": "Western China, Gobi Desert, and Mongolia",
+    "habitat": "Desert, grassland, valleys, and canyons in mountainous areas",
+    "wild_diet": "Grass, leaves, shrubs, thorns, and saltbush",
+    "zoo_diet": "Hay, carrots, and herbivore grain",
+    "details": "A camel is an even-toed ungulate within the genus Camelus, bearing distinctive fatty deposits known as \"humps\" on its back. The three surviving species of camel are the dromedary, or one-humped camel (C. dromedarius), which inhabits the Middle East and the Horn of Africa; the Bactrian, or two-humped camel (C. bactrianus), which inhabits Central Asia; and the critically endangered wild Bactrian camel (C. ferus) that has limited populations in remote areas of northwest China and Mongolia. Bactrian camels take their name from the historical Bactria region of Central Asia (Yam & Khomeiri, 2015). Additionally one other species of camel in the separate genus Camelops, C. hesternus lived in western North America and became extinct when humans entered the continent at the end of the Pleistocene. Both the dromedary and the Bactrian camels have been domesticated; they provide milk, meat, hair for textiles or goods such as felted pouches, and are working animals with tasks ranging from human transport to bearing loads."
+  },
+  {
+    "name": "Gorilla",
+    "latin_name": "Gorilla gorilla",
+    "height": "Male: 5.5'; Female 4.5'",
+    "weight": "Males: up to 400 lbs; females: up to 225 lbs",
+    "distribution": "Southeastern Nigeria, Cameroon, Gabon, Central African Republic, the Democratic Republic of the Congo and Equatorial Guinea",
+    "habitat": "Lowland tropical rainforests",
+    "wild_diet": "Leaves, herbs, shrubs, vines and other vegetations and fruits.",
+    "zoo_diet": "Monkey chow, apples, oranges, bananas, grapes, sweet potatoes, carrots, celery, onions, green beans, spinach, kale, parsley, and escarole or romain lettuce.",
+    "details": "Gorillas are ground-dwelling, predominantly herbivorous apes that inhabit the forests of central Africa. The eponymous genus Gorilla is divided into two species: the eastern gorillas and the western gorillas (both critically endangered), and either four or five subspecies. They are the largest living primates. The DNA of gorillas is highly similar to that of humans, from 95–99% depending on what is counted, and they are the next closest living relatives to humans after the chimpanzees and bonobos. Gorillas' natural habitats cover tropical or subtropical forests in Africa. Although their range covers a small percentage of Africa, gorillas cover a wide range of elevations. The mountain gorilla inhabits the Albertine Rift montane cloud forests of the Virunga Volcanoes, ranging in altitude from 2,200–4,300 metres (7,200–14,100 ft). Lowland gorillas live in dense forests and lowland swamps and marshes as low as sea level, with western lowland gorillas living in Central West African countries and eastern lowland gorillas living in the Democratic Republic of the Congo near its border with Rwanda."
+  },
+  {
+    "name": "Tiger",
+    "latin_name": "Panthera tigris",
+    "height": "Up to 3 feet",
+    "weight": "Males: 320 to 675 pounds; females: 220 to 370 pounds",
+    "distribution": "Northeast China, eastern Russia, southeastern Siberia, and Manchuria",
+    "habitat": "Snow-covered deciduous, coniferous, and scrub mountain forests",
+    "wild_diet": "Red deer, wild boar, and Sitka deer are the largest portion of their diet; they may also take smaller mammals and birds and domestic goats or sheep",
+    "zoo_diet": "A commercial horse meat product, \"Nebraska Premium Canine\", mixed with ground pork; shank bones and whole prey; plus liver and chunk meat for training and treats",
+    "details": "The tiger (Panthera tigris) is the largest cat species, most recognisable for their pattern of dark vertical stripes on reddish-orange fur with a lighter underside. The species is classified in the genus Panthera with the lion, leopard, jaguar and snow leopard. Tigers are apex predators, primarily preying on ungulates such as deer and bovids. They are territorial and generally solitary but social animals, often requiring large contiguous areas of habitat that support their prey requirements. This, coupled with the fact that they are indigenous to some of the more densely populated places on Earth, has caused significant conflicts with humans.\nTigers once ranged widely across eastern Eurasia, from the Black Sea in the west, to the Indian Ocean in the south, and from Kolyma to Sumatra in the east. Over the past 100 years, they have lost 93% of their historic range, and have been extirpated from Western and Central Asia, from the islands of Java and Bali, and from large areas of Southeast, Southern and Eastern Asia. Today, they range from the Siberian taiga to open grasslands and tropical mangrove swamps. The remaining six tiger subspecies have been classified as endangered by the International Union for Conservation of Nature (IUCN). The global population in the wild is estimated to number between 3,062 and 3,948 individuals, down from around 100,000 at the start of the 20th century, with most remaining populations occurring in small pockets isolated from each other, of which about 2,000 exist on the Indian subcontinent. A 2016 global census estimated the population of wild tigers at approximately 3,890 individuals. Major reasons for population decline include habitat destruction, habitat fragmentation and poaching. The extent of area occupied by tigers is estimated at less than 1,184,911 km2 (457,497 sq mi), a 41% decline from the area estimated in the mid-1990s. In 2016, wildlife conservation group at WWF declared that world's count of wild tigers has risen for the first time in a century."
+  },
+  {
+    "name": "Rhinoceros",
+    "latin_name": "Diceros bicornis",
+    "height": "4.5' to 5.5' at the shoulder",
+    "weight": "2,200 lbs to 3,200 lbs",
+    "distribution": "Africa south of the Sahara",
+    "habitat": "Thick brush, acacia scrub, and open country",
+    "wild_diet": "Shrubs, fiber, herbs, and leaves",
+    "zoo_diet": "Alfalfa hay, grass hay, grain pellets, fruits, vegetables, vitamin supplements and browse",
+    "details": "A rhinoceros, often abbreviated to rhino, is one of any five extant species of odd-toed ungulates in the family Rhinocerotidae, as well as any of the numerous extinct species. Two of these extant species are native to Africa and three to Southern Asia.\nMembers of the rhinoceros family are characterized by their large size (they are some of the largest remaining megafauna, with all of the species able to reach one tonne or more in weight); as well as by an herbivorous diet; a thick protective skin, 1.5–5 cm thick, formed from layers of collagen positioned in a lattice structure; relatively small brains for mammals this size (400–600 g); and a large horn. They generally eat leafy material, although their ability to ferment food in their hindgut allows them to subsist on more fibrous plant matter, if necessary. Unlike other perissodactyls, the two African species of rhinoceros lack teeth at the front of their mouths, relying instead on their lips to pluck food."
+  },
+
+  {
+    "name": "Addax",
+    "latin_name": "4.5' to 5.5'",
+    "height": "5' - 6' at shoulder",
+    "weight": "135 to 280 lbs",
+    "distribution": "Saraha Desertland - Sahel region",
+    "habitat": "Sand and stony deserts",
+    "wild_diet": "Grass, leaves and bushes of trees",
+    "zoo_diet": "Herbivore grain, carrots, sweet potatoes, and grass hay.",
+    "details": "The addax (Addax nasomaculatus), also known as the white antelope and the screwhorn antelope, is an antelope of the genus Addax, that lives in the Sahara desert. It was first described by Henri de Blainville in 1816. As suggested by its alternative name, this pale antelope has long, twisted horns - typically 55 to 80 cm (22 to 31 in) in females and 70 to 85 cm (28 to 33 in) in males. Males stand from 105 to 115 cm (41 to 45 in) at the shoulder, with females at 95 to 110 cm (37 to 43 in). They are sexually dimorphic, as the females are smaller than males. The colour of the coat depends on the season - in the winter, it is greyish-brown with white hindquarters and legs, and long, brown hair on the head, neck, and shoulders; in the summer, the coat turns almost completely white or sandy blonde.\nThe addax mainly eats grasses and leaves of any available shrubs, leguminous herbs and bushes. These animals are well-adapted to exist in their desert habitat, as they can live without water for long periods of time. Addax form herds of five to 20 members, consisting of both males and females. They are led by the oldest female. Due to its slow movements, the antelope is an easy target for its predators: lions, humans, African hunting dogs, cheetahs and leopards. Breeding season is at its peak during winter and early spring. The natural habitat of the addax are arid regions, semideserts and sandy and stony deserts."
+  },
+  {
+    "name": "Okapi",
+    "latin_name": "Okapia johnstoni",
+    "height": "5' - 6' at shoulder",
+    "weight": "Male: 440 - 660 lbs; Female: 500 - 750 lbs",
+    "distribution": "Central Africa and the north and northeast Democratic Republic of Congo",
+    "habitat": "Dense forests, preferring riverside areas and clearings where sunlight can penetrate to the forest floor",
+    "wild_diet": "Leaves, buds, and shoots of trees",
+    "zoo_diet": "Alfalfa hay, apples, bananas, greens, sweet potatoes, and carrots",
+    "details": "The okapi (Okapia johnstoni) is a giraffid artiodactyl mammal native to the northeast of the Democratic Republic of the Congo in Central Africa. Although the okapi bears striped markings reminiscent of zebras, it is most closely related to the giraffe. The okapi and the giraffe are the only living members of the family Giraffidae. The okapi stands about 1.5 m (4.9 ft) tall at the shoulder and has an average body length of about 2.5 m (8.2 ft). Its weight ranges from 200 to 350 kg (440 to 770 lb). It has a long neck, and large, flexible ears. Its coat is a chocolate to reddish brown, much in contrast with the white horizontal stripes and rings on the legs and white ankles. Male okapis have short, hair-covered horns called ossicones, less than 15 cm (5.9 in) in length. Females possess hair whorls, and ossicones are absent. Okapis are primarily diurnal but may be active for a few hours in darkness. They are essentially solitary, coming together only to breed. Okapis are herbivores, feeding on tree leaves and buds, grasses, ferns, fruits, and fungi. Rut in males and estrus in females does not depend on the season. In captivity, estrous cycles recur every 15 days. The gestational period is around 440 to 450 days long, following which usually a single calf is born. The juveniles are kept in hiding, and nursing takes place infrequently. Juveniles start taking solid food from three months, and weaning takes place at six months. Okapis inhabit canopy forests at altitudes of 500–1,500 m (1,600–4,900 ft). They are endemic to the tropical forests of the Democratic Republic of the Congo, where they occur across the central, northern and eastern regions. The International Union for the Conservation of Nature and Natural Resources (IUCN) classifies the okapi as Endangered. Major threats include habitat loss due to logging and human settlement. Extensive hunting for bushmeat and skin and illegal mining have also led to a decline in populations. The Okapi Conservation Project was established in 1987 to protect okapi populations."
+  },
+  {
+    "name": "Wombat",
+    "latin_name": "Lasiorhinus latifrons",
+    "height": "10 to 14 inches",
+    "weight": "42 to 84 pounds",
+    "distribution": "Southern South Australia and southeastern Western Australia",
+    "habitat": "Arid to semi-arid savannah woodlands, grasslands, and extensive plains with low shrubs",
+    "wild_diet": "Green grasses, particularly fresh shoots, as well as roots, bark and fungi",
+    "zoo_diet": "High-fiber apple-flavored monkey chow, sweet potatoes, bananas, carrots, peanuts, hay, herbivore pellets, and leaf-eater biscuits",
+    "details": "The southern hairy-nosed wombat (Lasiorhinus latifrons) is one of three extant species of wombats. It is found in scattered areas of semiarid scrub and mallee from the eastern Nullarbor Plain to the New South Wales border area. It is the smallest of all three wombat species. The young often do not survive dry seasons. It is the state animal of South Australia. Among the oldest southern hairy-nosed wombats ever documented were a male and a female from Brookfield Zoo just outside Chicago. Their names were Carver, which lived to be 34, and his mother, Vicky, which lived to be 24. In South Australia in 2010, a domesticated wombat named Wally was also reported as having reached the age of 34. The oldest currently living captive southern hairy nosed wombat is Hamlet at the Toronto Zoo at age 33."
+  },
+  {
+    "name": "Two-Toed Sloth",
+    "latin_name": "Choloepus hoffmanni",
+    "height": "19\" to 27.5\"",
+    "weight": "8 to 17 lbs",
+    "distribution": "Nicaragua, western Venezuela, central Peru, southwestern Brazil, and central Bolivia",
+    "habitat": "Lowland and upoland tropical rainforests",
+    "wild_diet": "Leaves, tender twigs, and fruit",
+    "zoo_diet": "Lettuce, spinach, celery, carrots, sweet potatoes, green beans, canned primate diet, Hi-pro monkey chow, and vitamin K supplement",
+    "details": "Hoffmann's two-toed sloth is a heavily built animal with shaggy fur and slow, deliberate movements. The fore feet have only two toes, each ending with long, curved claws, although three clawed toes are on each of the hind feet. Other features that distinguish it from three-toed sloths, which may be found in the same geographic areas, include the longer snout, separate rather than partially fused toes of the forefeet, the absence of hair on the soles of the feet, and larger overall size. The wrist of the sloth has developed some specific traits due to their slow, yet acrobatic motions. These evolved traits include diminution and distal migration of the pisiform bone, with a loss of contact with the ulna; reduction of the distal end of the ulna to a styloid process; and extremely reduced contact between the ulna and triquetral bone. Hoffmann's two-toed sloth is, however, much easier to confuse with the related Linnaeus's two-toed sloth, which it closely resembles. The primary physical differences between the two species relate to subtle skeletal features; for example, Hoffmann's two-toed sloth has three foramina in the upper forward part of the interpterygoid space, rather than just two, and often – but not always – has fewer cervical vertebrae."
+  }
+]

@@ -18,6 +18,7 @@
         android:id="@+id/editAddIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="addImage"
         app:layout_constraintBottom_toBottomOf="@+id/editPhoto"
         app:layout_constraintEnd_toEndOf="@+id/editPhoto"
         app:layout_constraintStart_toStartOf="@+id/editPhoto"

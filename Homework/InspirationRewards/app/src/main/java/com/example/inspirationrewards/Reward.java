@@ -6,25 +6,21 @@ public class Reward implements Serializable {
 
     //Attributes
     private int amount = 0;
-    private String sender = "";
+    private String username = "";
+    private String senderName = "";
     private String comment = "";
     private String date = "";
 
-    public Reward(){
-        amount = 0;
-        sender = "";
-        comment = "";
-        date = "";
-    }
-
     public Reward(
         int a,
+        String u,
         String s,
         String c,
         String d
     ){
         amount = a;
-        sender = s;
+        username = u;
+        senderName = s;
         comment = c;
         date = d;
     }
@@ -35,8 +31,8 @@ public class Reward implements Serializable {
         return amount;
     }
 
-    public String getSender() {
-        return sender;
+    public String getSenderName() {
+        return senderName;
     }
 
     public String getComment() {
@@ -46,14 +42,18 @@ public class Reward implements Serializable {
     public String getDate(){
         return date;
     }
+
+    public String getUsername(){
+        return username;
+    }
     //--SET----
 
     public void setAmount(int amount) {
         this.amount = amount;
     }
 
-    public void setSender(String sender) {
-        this.sender = sender;
+    public void setSenderName(String senderName) {
+        this.senderName = senderName;
     }
 
     public void setComment(String comment) {
@@ -62,5 +62,9 @@ public class Reward implements Serializable {
 
     public void setDate(String date) {
         this.date = date;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }

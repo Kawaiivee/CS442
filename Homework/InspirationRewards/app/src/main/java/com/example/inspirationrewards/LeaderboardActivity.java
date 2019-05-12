@@ -15,6 +15,8 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class LeaderboardActivity extends AppCompatActivity
@@ -25,6 +27,8 @@ public class LeaderboardActivity extends AppCompatActivity
     private ProfileAdapter profileAdapter;
     private int profileSelected = 0;
     private final List<Profile> profileList = new ArrayList<>();
+
+    Profile profile;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,9 @@ public class LeaderboardActivity extends AppCompatActivity
         recyclerView.setAdapter(profileAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
+        //Used to check if the current user is in the list
+        profile = (Profile) getIntent().getSerializableExtra("profile");
+
         //ActionBar v7 Shit
         android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Inspiration Leaderboard");
@@ -45,10 +52,9 @@ public class LeaderboardActivity extends AppCompatActivity
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setHomeButtonEnabled(true);
 
-        for(int i = 0; i < 20; i++){
-            profileList.add(new Profile("Username", "Password", "FN", "LN", "DPT", "POS", "This is my story", true, 100, null));
-        }
-        profileAdapter.notifyDataSetChanged();
+        GetAllProfilesAsyncTask getAllProfilesAsyncTask = new GetAllProfilesAsyncTask(this, profile);
+        getAllProfilesAsyncTask.execute();
+
     }
 
     @Override
@@ -90,16 +96,40 @@ public class LeaderboardActivity extends AppCompatActivity
         return true;
     }
 
-    // If there is an internet connection, return true. else false
-    //Use this for anything that attemps to use the internet
-    public boolean connected(){
-        ConnectivityManager connectivityManager = (ConnectivityManager)getSystemService(Context.CONNECTIVITY_SERVICE);
-        if(connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_MOBILE).getState() == NetworkInfo.State.CONNECTED ||
-                connectivityManager.getNetworkInfo(ConnectivityManager.TYPE_WIFI).getState() == NetworkInfo.State.CONNECTED) {
-            return true;
+    public void addProfile(Profile currProfile) {
+        profileList.add(currProfile);
+
+        if (currProfile.getUsername().equals(profile.getUsername())) {
+            profileList.remove(currProfile); //Gets rid of duplicate current user profile
         }
-        else{
-            return false;
-        }
+        // Sort list based on total amount of points awarded
+        Collections.sort(profileList, new Comparator<Profile>() {
+            @Override
+            public int compare(Profile p1, Profile p2) {
+                // P1 rewards
+                List<Reward> p1Rewards = p1.getRewardList();
+                int p1Total = 0;
+                for (int i = 0; i < p1Rewards.size(); i++) {
+                    Reward currReward = p1Rewards.get(i);
+                    p1Total += currReward.getAmount();
+                }
+                // P2 rewards
+                List<Reward> p2Rewards = p2.getRewardList();
+                int p2Total = 0;
+                for (int i = 0; i < p2Rewards.size(); i++) {
+                    Reward currReward = p2Rewards.get(i);
+                    p2Total += currReward.getAmount();
+                }
+                if (p1Total > p2Total) {
+                    return -1;
+                }
+                else if (p1Total < p2Total) {
+                    return 1;
+                }
+                return 0;
+            }
+        });
+        profileAdapter.notifyDataSetChanged();
     }
+
 }

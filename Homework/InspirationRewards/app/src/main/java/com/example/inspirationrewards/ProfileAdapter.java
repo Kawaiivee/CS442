@@ -1,5 +1,6 @@
 package com.example.inspirationrewards;
 
+import android.graphics.BitmapFactory;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -39,6 +40,7 @@ public class ProfileAdapter extends RecyclerView.Adapter<ProfileViewHolder> {
         holder.position.setText(profile.getPosition());
         holder.department.setText(profile.getDepartment());
         holder.points.setText(strPoints);
+        holder.thumbnail.setImageBitmap(BitmapFactory.decodeByteArray(profile.getPhoto(), 0, profile.getPhoto().length));
     }
 
     public static String intToString(int i){

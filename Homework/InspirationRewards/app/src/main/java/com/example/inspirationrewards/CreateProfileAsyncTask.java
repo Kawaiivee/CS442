@@ -1,8 +1,10 @@
 package com.example.inspirationrewards;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.util.Base64;
 import android.util.Log;
 
 import org.json.JSONArray;
@@ -17,11 +19,13 @@ import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
 import static android.content.ContentValues.TAG;
 import static java.net.HttpURLConnection.HTTP_OK;
 
-public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
+public class CreateProfileAsyncTask extends AsyncTask<String, Double, String>{
 
     //raw url and my hawk ID
     private static final String baseURL = "http://inspirationrewardsapi-env.6mmagpm2pv.us-east-2.elasticbeanstalk.com";
@@ -39,11 +43,12 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
     private boolean admin;
     private String location;
     private String photo;
+    private CreateActivity createActivity;
 
     //status of request. request was successful -> true, request failed -> false
     private static boolean status = false;
 
-    private CreateProfileAsyncTask(
+    public CreateProfileAsyncTask(
             String username,
             String password,
             String firstname,
@@ -53,7 +58,8 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
             String story,
             boolean admin,
             String location,
-            String photo
+            String photo,
+            CreateActivity createActivity
     ){
         this.username = username;
         this.password = password;
@@ -65,6 +71,7 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
         this.admin = admin;
         this.location = location;
         this.photo = photo;
+        this.createActivity = createActivity;
     }
 
     @Override
@@ -121,10 +128,10 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
             }
         }
         catch(MalformedURLException e){
-            Log.d(TAG, "doInBackground: malformed url");
+            Log.d("Foo", "doInBackground: malformed url");
         }
         catch(IOException e){
-            Log.d(TAG, "doInBackground: ioexception");
+            Log.d("Foo", "doInBackground: " + e);
         }
         finally{
             //Close connection
@@ -145,7 +152,27 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
 
     @Override
     protected void onPostExecute(String str){
-        super.onPostExecute(str);
+        if(status) {
+            Log.d("Foo", "onPostExecute: success" + str);
+            Profile profile = new Profile(
+                    username,
+                    password,
+                    firstname,
+                    lastname,
+                    department,
+                    position,
+                    story,
+                    admin,
+                    1000,
+                    Base64.decode(photo, Base64.DEFAULT),
+                    location,
+                    new ArrayList<Reward>()
+                    );
+            this.createActivity.toProfile(profile);
+        }
+        else{
+            Log.d("Foo", "onPostExecute: failure" + str);
+        }
     }
 
     //method to parse the received JSON object
@@ -156,8 +183,8 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
             jBody.put("studentId", ID);
             jBody.put("username", this.username);
             jBody.put("password", this.password);
-            jBody.put("firstname", this.firstname);
-            jBody.put("lastname", this.lastname);
+            jBody.put("firstName", this.firstname);
+            jBody.put("lastName", this.lastname);
             jBody.put("pointsToAward", 1000); //1000 initial points
             jBody.put("department", this.department);
             jBody.put("story", this.story);
@@ -168,7 +195,7 @@ public class CreateProfileAsyncTask extends AsyncTask<String,Integer,String>{
             jBody.put("rewardRecords", new JSONArray()); //initialize a new rewards list
         }
         catch(JSONException e){
-            Log.d(TAG, "getJSONBody: something went wront in making a json body");
+            Log.d(TAG, "getJSONBody: something went wrong in making a json body");
         }
         return jBody;
     }
