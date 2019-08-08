@@ -14,6 +14,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.Random;
 
 public class StockDownloader extends AsyncTask<String, Double, String> {
     //Main Activity, URL for getting symbols + names, tag
@@ -79,14 +80,20 @@ public class StockDownloader extends AsyncTask<String, Double, String> {
         //super metohd
         super.onPostExecute(str);
 
-        try{
+        //Don't need a try and catch anymore since the JSON part is gone
+        //try{
             //Init JSON Object jo
-            JSONObject jo = new JSONObject(str);
+            // THE API GOT DEPRECATED, so we no longer have the string that comes from the GET request, thus, we can;t have a JSON object here anymore
+            // JSONObject jo = new JSONObject(str);
 
             ///Get all the relevant stock data latestPrice, change, changePercent
-            Double latestPrice = Double.valueOf(jo.getDouble("latestPrice"));
-            Double change = Double.valueOf(jo.getDouble("change"));
-            Double changePercent = Double.valueOf(jo.getDouble("changePercent"));
+            //double latestPrice = Double.valueOf(jo.getDouble("latestPrice"));
+            //double change = Double.valueOf(jo.getDouble("change"));
+            //double changePercent = Double.valueOf(jo.getDouble("changePercent"));
+
+            double latestPrice = 1.23;
+            double change = 2.34;
+            double changePercent = 3.45;
 
             //Make that new stock object
             Stock s = new Stock(this.symbol, this.name, latestPrice, change, changePercent);
@@ -99,10 +106,9 @@ public class StockDownloader extends AsyncTask<String, Double, String> {
             else{
                 this.mainActivity.addStock(s);
             }
-        }
-        catch(JSONException e){
-            e.printStackTrace();
-            return;
-        }
+        //}
+        //catch(JSONException e){
+            //e.printStackTrace();
+        //}
     }
 }
